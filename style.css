@@ -1,0 +1,88 @@
+body{
+  background: #F5F5F8;
+}
+ul{
+  margin-top: 30px;
+}
+.card-bg-color{
+  background-color: #ffffff;
+}
+.mt-20{
+  margin-top: 20px;
+}
+.mt-30{
+  margin-top: 30px;
+}
+.section-title{
+  /* Section Title */
+  font-family: 'Poppins' !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  /* or 98% */
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #1B264F;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+/* image 1 */
+.image-block{
+  width: 160px;
+  height: 150px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+.headline{
+  /* Headline */
+  width: 190px;
+  height: 32px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  font-feature-settings: 'salt' on, 'liga' off;
+  /* MA Charcoal 1 */
+  color: #353844;
+  margin-top: 20px;
+}
+.description{
+  /* Description */
+  width: 172px;
+  height: 78px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26px;
+  /* or 173% */
+  font-feature-settings: 'salt' on, 'liga' off;
+  /* MA Charcoal 1 */
+  color: #353844;
+  margin: 20px 0px;
+}
+.full-height-img {
+  height: 100% !important;
+}
+.get-started{
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 70px;
+  gap: 10px;
+  width: 250px;
+  height: 50px;
+  /* MA Dark Blue 1 */
+  background: #1B264F;
+  border-radius: 12px;
+  color: white;
+}
